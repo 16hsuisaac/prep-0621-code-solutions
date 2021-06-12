@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img { width: 100%; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71niXI3lxlL._AC_SY679_.jpg" alt="Movie poster for Avengers: EndGame">
+      <h3>Avengers: Endgame</h3>
+      <p>Superheroes doing super hero things against a super villain who has population concerns, magic rocks, and questionable ethics</p>
+      </div>
+
+      <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Hamilton_Disney%2B_poster_2020.jpg/220px-Hamilton_Disney%2B_poster_2020.jpg" alt="Movie poster for Hamilton">
+      <h3>Hamilton</h3>
+      <p>American history turned broadway musical full of sick beats, slick flow, and less adultery than you would expect</p>
+      </div>
+
+      <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Frozen_2_poster.jpg/220px-Frozen_2_poster.jpg" alt="Movie poster for Frozen II">
+      <h3>Frozen II</h3>
+      <p>Magical sister with notsomagical other sister go on an adventure to uncover the truth. Unexpected musical numbers from moderately annoying magical snowman and 80s themed music video from nonmagical ice farmer present in film.</p>
+      </div>
+
+    </div>
+</div>
+
+</body>
+</html>
